@@ -1,0 +1,7 @@
+2026-01-27 09:53:25.277 [info] Experiment 'pythonSurveyNotification' is active
+2026-01-27 09:53:25.277 [warning] Dir "/data/data/com.termux/files/home/.pixi/envs" is not watchable (directory does not exist)
+2026-01-27 09:53:25.467 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-01-27 09:53:25.474 [info] Python interpreter path: /data/data/com.termux/files/usr/bin/python
+2026-01-27 09:53:25.571 [info] > pyenv which python
+2026-01-27 09:53:25.571 [info] cwd: .
+2026-01-27 09:53:27.255 [info] Starting Jedi language server for home.

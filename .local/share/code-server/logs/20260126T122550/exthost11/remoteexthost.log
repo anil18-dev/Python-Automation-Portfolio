@@ -1,0 +1,13 @@
+2026-01-27 11:40:14.879 [info] Extension host with pid 31603 started
+2026-01-27 11:40:15.309 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-27 11:40:15.314 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-27 11:40:15.315 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-01-27 11:40:16.391 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-27 11:40:16.654 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-27 11:40:16.656 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-27 11:40:17.326 [info] Eager extensions activated
+2026-01-27 11:40:17.326 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-27 11:40:17.328 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-27 11:40:18.149 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-01-27 11:52:53.131 [info] Extension host terminating: received terminate message from renderer
+2026-01-27 11:52:53.613 [info] Extension host with pid 31603 exiting with code 0

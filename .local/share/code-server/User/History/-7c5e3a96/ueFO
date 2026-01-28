@@ -1,0 +1,2 @@
+a = int(int(input("First number: "))
+b = int(int(input))

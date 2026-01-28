@@ -1,0 +1,404 @@
+2026-01-27 10:05:59.577 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "32"
+
+2026-01-27 10:41:13.103 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "157"
+
+2026-01-27 10:44:08.157 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "165"
+
+2026-01-27 10:44:08.164 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "167"
+
+2026-01-27 10:44:08.166 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "166"
+
+2026-01-27 10:44:08.258 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "168"
+
+2026-01-27 10:44:08.266 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "170"
+
+2026-01-27 10:44:08.268 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "169"
+
+2026-01-27 10:56:22.091 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "275"
+
+2026-01-27 10:56:22.626 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "278"
+
+2026-01-27 11:07:00.066 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 328 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/timer.py'), range=11:34-11:34, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 671, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 697, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (34) is not in a valid range (0-33) for line 12 ('            print("BLAST OFF! 🚀")').
+
+2026-01-27 11:07:00.137 [info] [Error - 11:07:00 AM] Request textDocument/codeAction failed.
+2026-01-27 11:07:00.137 [info]   Message: ValueError: `column` parameter (34) is not in a valid range (0-33) for line 12 ('            print("BLAST OFF! 🚀")').
+  Code: -32603 
+[object Object]
+2026-01-27 11:07:01.814 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 331 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/timer.py'), range=11:34-11:34, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 671, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 697, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (34) is not in a valid range (0-33) for line 12 ('            print("BLAST OFF! 🚀")').
+
+2026-01-27 11:07:01.820 [info] [Error - 11:07:01 AM] Request textDocument/codeAction failed.
+2026-01-27 11:07:01.820 [info]   Message: ValueError: `column` parameter (34) is not in a valid range (0-33) for line 12 ('            print("BLAST OFF! 🚀")').
+  Code: -32603 
+[object Object]
+2026-01-27 11:07:32.455 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "344"
+
+2026-01-27 11:07:44.970 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 348 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/timer.py'), range=11:34-11:34, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 671, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 697, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (34) is not in a valid range (0-33) for line 12 ('            print("BLAST OFF! 🚀")').
+
+2026-01-27 11:07:44.974 [info] [Error - 11:07:44 AM] Request textDocument/codeAction failed.
+2026-01-27 11:07:44.974 [info]   Message: ValueError: `column` parameter (34) is not in a valid range (0-33) for line 12 ('            print("BLAST OFF! 🚀")').
+  Code: -32603 
+[object Object]
+2026-01-27 11:07:46.670 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 351 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/timer.py'), range=11:34-11:34, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 671, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 697, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (34) is not in a valid range (0-33) for line 12 ('            print("BLAST OFF! 🚀")').
+
+2026-01-27 11:07:46.675 [info] [Error - 11:07:46 AM] Request textDocument/codeAction failed.
+2026-01-27 11:07:46.675 [info]   Message: ValueError: `column` parameter (34) is not in a valid range (0-33) for line 12 ('            print("BLAST OFF! 🚀")').
+  Code: -32603 
+[object Object]
+2026-01-27 11:08:17.837 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "353"
+
+2026-01-27 11:08:29.460 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "362"
+
+2026-01-27 11:15:44.153 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 389 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/timer.py'), range=11:22-11:22, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 671, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 697, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (22) is not in a valid range (0-21) for line 12 ('print("BLAST OFF! 🚀")').
+
+2026-01-27 11:15:44.166 [info] [Error - 11:15:44 AM] Request textDocument/codeAction failed.
+2026-01-27 11:15:44.166 [info]   Message: ValueError: `column` parameter (22) is not in a valid range (0-21) for line 12 ('print("BLAST OFF! 🚀")').
+  Code: -32603 
+[object Object]
+2026-01-27 11:21:13.922 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "445"
+
+2026-01-27 11:22:34.863 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "492"
+
+2026-01-27 11:22:37.391 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "496"
+
+2026-01-27 11:23:55.486 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 602 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=17:52-17:52, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:23:55.501 [info] [Error - 11:23:55 AM] Request textDocument/codeAction failed.
+2026-01-27 11:23:55.501 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-01-27 11:23:56.560 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 603 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=17:48-17:48, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:23:56.561 [info] [Error - 11:23:56 AM] Request textDocument/codeAction failed.
+2026-01-27 11:23:56.561 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-01-27 11:23:57.954 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 606 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=17:20-17:20, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:23:57.958 [info] [Error - 11:23:57 AM] Request textDocument/codeAction failed.
+2026-01-27 11:23:57.958 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-01-27 11:23:58.993 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 609 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=17:20-17:20, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:23:58.997 [info] [Error - 11:23:58 AM] Request textDocument/codeAction failed.
+2026-01-27 11:23:58.997 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-01-27 11:23:59.969 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 610 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=17:8-17:8, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:23:59.973 [info] [Error - 11:23:59 AM] Request textDocument/codeAction failed.
+2026-01-27 11:23:59.973 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-01-27 11:24:01.107 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 613 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=16:56-16:56, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:24:01.109 [info] [Error - 11:24:01 AM] Request textDocument/codeAction failed.
+2026-01-27 11:24:01.109 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-01-27 11:24:02.324 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 616 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=17:4-17:4, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:24:02.327 [info] [Error - 11:24:02 AM] Request textDocument/codeAction failed.
+2026-01-27 11:24:02.327 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-01-27 11:24:03.358 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 619 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=17:4-17:4, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:24:03.362 [info] [Error - 11:24:03 AM] Request textDocument/codeAction failed.
+2026-01-27 11:24:03.362 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-01-27 11:24:04.390 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 620 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///data/data/com.termux/files/home/game.py'), range=17:4-17:4, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 717, in code_action
+    extract_function_refactoring = jedi_script.extract_function(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 675, in extract_function
+    return extract_function(
+           ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 211, in extract_function
+    assert len(nodes)
+           ^^^^^^^^^^
+AssertionError
+
+2026-01-27 11:24:04.394 [info] [Error - 11:24:04 AM] Request textDocument/codeAction failed.
+2026-01-27 11:24:04.394 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]

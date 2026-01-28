@@ -1,0 +1,13 @@
+2026-01-26 13:47:30.071 [info] Extension host with pid 19275 started
+2026-01-26 13:47:30.694 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-26 13:47:30.700 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-26 13:47:31.490 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-26 13:47:31.550 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-26 13:47:31.552 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-26 13:47:32.168 [info] Eager extensions activated
+2026-01-26 13:47:32.169 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-26 13:47:32.170 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-26 13:47:36.353 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onCommand:python.createNewFile'
+2026-01-26 13:47:38.673 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-01-26 13:53:33.536 [info] Extension host terminating: received terminate message from renderer
+2026-01-26 13:53:34.125 [info] Extension host with pid 19275 exiting with code 0

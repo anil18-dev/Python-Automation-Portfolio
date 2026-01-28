@@ -1,0 +1,5 @@
+2026-01-27 09:51:18.348 [info] Extension host with pid 22553 started
+2026-01-27 09:51:18.352 [info] Lock '/data/data/com.termux/files/home/.local/share/code-server/User/workspaceStorage/6b2b686c/vscode.lock': Lock acquired.
+2026-01-27 09:58:18.104 [info] Extension host terminating: renderer disconnected for too long (2)
+2026-01-27 09:58:18.132 [info] Lock '/data/data/com.termux/files/home/.local/share/code-server/User/workspaceStorage/6b2b686c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-01-27 09:58:18.198 [info] Extension host with pid 22553 exiting with code 0

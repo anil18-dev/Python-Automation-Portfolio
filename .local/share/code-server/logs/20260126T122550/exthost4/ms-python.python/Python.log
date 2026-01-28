@@ -1,0 +1,18 @@
+2026-01-26 13:15:35.867 [info] Experiment 'pythonSurveyNotification' is active
+2026-01-26 13:15:35.867 [warning] Dir "/data/data/com.termux/files/home/.pixi/envs" is not watchable (directory does not exist)
+2026-01-26 13:15:36.003 [info] Starting Environment refresh
+2026-01-26 13:15:36.033 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-01-26 13:15:36.055 [info] > hatch env show --json
+2026-01-26 13:15:36.055 [info] cwd: .
+2026-01-26 13:15:36.065 [info] Python interpreter path: /data/data/com.termux/files/usr/bin/python
+2026-01-26 13:15:36.138 [info] > /data/data/com.termux/files/usr/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/interpreterInfo.py
+2026-01-26 13:15:36.138 [info] Environments refresh paths discovered: 138 milliseconds
+2026-01-26 13:15:36.155 [info] Starting Environment refresh
+2026-01-26 13:15:36.208 [info] Environments refresh paths discovered: 54 milliseconds
+2026-01-26 13:15:36.360 [info] Environments refresh finished (event): 360 milliseconds
+2026-01-26 13:15:36.361 [info] Environments refresh finished (event): 206 milliseconds
+2026-01-26 13:15:36.366 [info] Environment refresh took 368 milliseconds
+2026-01-26 13:15:36.369 [info] Environment refresh took 215 milliseconds
+2026-01-26 13:15:36.383 [info] > pyenv which python
+2026-01-26 13:15:36.383 [info] cwd: .
+2026-01-26 13:15:38.327 [info] Starting Jedi language server for home.
