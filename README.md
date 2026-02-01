@@ -1,23 +1,36 @@
-# Automated Investor Status Report
+# 🐍 Python Data Automation Portfolio
+**By Anil Dangi**
 
-## Project Overview
+Welcome to my portfolio. I specialize in building automated pipelines to transform messy, high-volume data into executive-ready MIS reports.
 
-This Python script automates the categorization and aggregation of high-volume investor data (5,500+ records). It replaces hours of manual data entry with a high-speed automated workflow.
+---
 
-## Key Features
+## 📊 Project 1: Scalable Data Segmentation (18,000+ Records)
+**The Challenge:** Automate the categorization of a massive dataset into dynamic, multi-sheet Excel reports.
 
-- **Code Extraction:** Extracts status codes from PAN numbers (4th character logic).
+![Challenge](challenge.png)
 
-- **Custom Mapping:** Maps codes to legal descriptions (Individual, Company, Firm, etc.).
+### Key Solutions:
+- **Dynamic Multi-Sheet Generation:** Automated creation of 6 targeted category reports from one master file.
+- **High Performance:** Optimized Pandas logic to process **18,000+ rows in under 3 seconds.**
+- **Data Integrity:** 100% accuracy in demographic mapping and name merging.
 
-- **Accuracy:** Ensures 100% data validation with zero human error.
+![The Technical Result](result.png)
 
-- **Speed:** Processes 5,500+ records in under 2 seconds.
+---
 
-## Technologies Used
+## 📈 Project 2: Investor Status Report (5,500+ Records)
+**The Challenge:** Extract legal status codes from PAN numbers and aggregate investor counts.
 
-- Python 3.x
+### Key Solutions:
+- **Logic Mapping:** Created a dictionary-based system to translate raw status codes into full descriptions.
+- **Automation:** Reduced 8 hours of manual entry into a 2-second script.
 
-- File I/O (CSV, TXT)
+[Link to Code for Project 2](./my_logic.py)
 
-- Dictionary-based data mapping
+---
+
+## 🛠️ Tech Stack
+- **Language:** Python 3.x
+- **Libraries:** Pandas, Openpyxl, File I/O
+- **Focus:** Data Cleaning, MIS Automation, Business Logic Building
