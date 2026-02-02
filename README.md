@@ -46,7 +46,7 @@ Developed a robust automation tool using **Pandas** and **Openpyxl**. The pipeli
 *   **Unmatched Speed:** Processed 18,000+ rows in under **3 seconds**.
 *   **Professional Output:** 6 targeted category reports delivered in one structured workbook.
 
-[📂 View Code & Files](./project_1_segmentation/)
+[📂 View Code & Files](./project_3_segmentation/)
 
 ---
 
