@@ -8,29 +8,41 @@ Welcome to my portfolio. I specialize in building automated pipelines to transfo
 ## 📊 Project 1: Scalable Data Segmentation (18,000+ Records)
 **The Challenge:** Automate the categorization of a massive dataset into dynamic, multi-sheet Excel reports.
 
-![Challenge](challenge.png)
-
 ### Key Solutions:
-- **Dynamic Multi-Sheet Generation:** Automated creation of 6 targeted category reports from one master file.
-- **High Performance:** Optimized Pandas logic to process **18,000+ rows in under 3 seconds.**
-- **Data Integrity:** 100% accuracy in demographic mapping and name merging.
+- **Dynamic Multi-Sheet Generation:** Automated creation of categorized reports.
+- **High Performance:** Optimized Pandas logic to process 18,000+ records in seconds.
+- **Data Integrity:** 100% accuracy in demographic mapping and reporting.
 
-![The Technical Result](result.png)
+[📂 View Project Files](./project_1_segmentation/)
 
 ---
 
 ## 📈 Project 2: Investor Status Report (5,500+ Records)
-**The Challenge:** Extract legal status codes from PAN numbers and aggregate investor counts.
+**The Challenge:** Extract legal status codes and merge fragmented data sources for investor reporting.
 
 ### Key Solutions:
-- **Logic Mapping:** Created a dictionary-based system to translate raw status codes into full descriptions.
-- **Automation:** Reduced 8 hours of manual entry into a 2-second script.
+- **Logic Mapping:** Created a dictionary-based system to translate complex codes.
+- **Automation:** Reduced 8 hours of manual entry into a 2-second script execution.
 
-[Link to Code for Project 2](./my_logic.py)
+[📂 View Project Files](./project_2_investor/)
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Project 3: Strategic Sales Insights (15,000+ Records)
+**The Challenge:** Transform massive sales datasets into actionable executive summaries (As seen on LinkedIn).
+
+![Sales Analysis Report](./project_3_sales_analysis/solution.png)
+
+### Key Solutions:
+- **Regional Performance:** Leveraged advanced `groupby` operations for multi-dimensional analysis.
+- **Trend Identification:** Automated discovery of peak performance days and top-selling products.
+- **Visual Reporting:** Generated clear insights for stakeholders using automated data processing.
+
+[📂 View Project Files](./project_3_sales_analysis/)
+
+---
+
+## 🛠 Tech Stack
 - **Language:** Python 3.x
-- **Libraries:** Pandas, Openpyxl, File I/O
-- **Focus:** Data Cleaning, MIS Automation, Business Logic Building
+- **Libraries:** Pandas, Openpyxl, Matplotlib, File I/O
+- **Focus:** Data Cleaning, MIS Automation, Business Intelligence, Data Visualization
