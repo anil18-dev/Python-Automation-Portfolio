@@ -1,3 +1,12 @@
+"""
+Project: Automated Investor Data Analysis (5,500+ Records)
+Author: Anil Dangi
+Description: Extracts legal status codes from PAN numbers and maps 
+             them to full descriptions to generate status reports.
+Input: investors.csv
+Output: client_report.txt
+"""
+
 import pandas as pd
 
 # 1. Load and clean

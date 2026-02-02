@@ -1,3 +1,11 @@
+"""
+Project: Strategic Sales Insights Analysis (15,000+ Records)
+Author: Anil Dangi
+Description: Automates regional sales performance analysis, identifies 
+             top sales representatives, and flags peak performance days.
+Input: sales.csv
+Output: final_sales_report.txt
+"""
 import pandas as pd
 
 df = pd.read_csv('sales.csv')
