@@ -1,0 +1,31 @@
+--- 🏆 COMPLETE SALES ANALYSIS REPORT ---
+
+Q1: UNITS SOLD IN EAST REGION CITIES:
+City
+Darjeeling     728
+Durgapur       615
+Kolkata       1752
+Patna         1160
+Ranchi        1359
+
+Q3: TOP 10 SALES REPRESENTATIVES:
+                     Total Sales  Units
+SalesRep                               
+Shari  Silva              408287   1350
+Isabel  Cross             321156   1135
+Rachel  Gomez             341627   1114
+Drew  Rogers              322985   1082
+Max  Rodgers              331986   1060
+Robert  Munoz             332530   1057
+Brooke  Horton            302753    987
+Cassandra  Franklin       302080    956
+Della  Jensen             293968    924
+Salvador  Bass            261456    876
+
+Q4: HIGHEST SELLING DAY: Sunday
+
+Q5: 3 LEAST SELLING PRODUCTS:
+Product
+Nestle Rowntree Screamers     969
+Nestle Nobbly Bobbly         1253
+Nestle Kit Kat Cone          2101

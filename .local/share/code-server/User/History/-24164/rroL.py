@@ -23,15 +23,15 @@ worst_3 = df.groupby('Product')['Units'].sum().sort_values().head(3)
 with open('final_sales_report.txt', 'w') as f:
     f.write("--- 🏆 COMPLETE SALES ANALYSIS REPORT ---\n\n")
         
-    f.write("Q1: UNITS SOLD IN EAST REGION CITIES:\n")
-    f.write(east_units.to_string() + "\n\n")
+            f.write("Q1: UNITS SOLD IN EAST REGION CITIES:\n")
+                f.write(east_units.to_string() + "\n\n")
                     
-    f.write("Q3: TOP 10 SALES REPRESENTATIVES:\n")
-    f.write(top_10_reps.to_string() + "\n\n")
+                        f.write("Q3: TOP 10 SALES REPRESENTATIVES:\n")
+                            f.write(top_10_reps.to_string() + "\n\n")
                                 
-    f.write(f"Q4: HIGHEST SELLING DAY: {best_day}\n\n")
+                                    f.write(f"Q4: HIGHEST SELLING DAY: {best_day}\n\n")
                                         
-    f.write("Q5: 3 LEAST SELLING PRODUCTS:\n")
-    f.write(worst_3.to_string() + "\n")
+                                            f.write("Q5: 3 LEAST SELLING PRODUCTS:\n")
+                                                f.write(worst_3.to_string() + "\n")
 
-print("MISSION ACCOMPLISHED! All 5 requirements saved to final_sales_report.txt")
+                                                print("MISSION ACCOMPLISHED! All 5 requirements saved to final_sales_report.txt")

@@ -34,4 +34,4 @@ with open('final_sales_report.txt', 'w') as f:
     f.write("Q5: 3 LEAST SELLING PRODUCTS:\n")
     f.write(worst_3.to_string() + "\n")
 
-print("MISSION ACCOMPLISHED! All 5 requirements saved to final_sales_report.txt")
+ print("MISSION ACCOMPLISHED! All 5 requirements saved to final_sales_report.txt")

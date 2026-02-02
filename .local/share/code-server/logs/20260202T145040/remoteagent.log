@@ -1,0 +1,42 @@
+2026-02-02 14:50:41.105 [info] 
+
+
+
+
+2026-02-02 14:50:41.105 [error] Error: Unable to retrieve mac address (unexpected format)
+    at nF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:19758)
+    at cF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20135)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20052
+    at async Promise.all (index 2)
+    at async VB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:194:413)
+    at async YB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:195:1392)
+2026-02-02 14:50:41.105 [error] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Module._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at cjsLoader (node:internal/modules/esm/translators:309:5)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:202:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async uF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20442)
+    at async Promise.all (index 4)
+    at async VB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:194:413)
+    at async YB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:195:1392)
+2026-02-02 14:50:41.165 [info] Extension host agent started.
+2026-02-02 14:50:43.509 [info] [127.0.0.1][b21e1682][ManagementConnection] New connection established.
+2026-02-02 14:50:45.907 [info] [127.0.0.1][84cbce79][ExtensionHostConnection] New connection established.
+2026-02-02 14:50:46.567 [info] [127.0.0.1][84cbce79][ExtensionHostConnection] <10377> Launched Extension Host Process.
+2026-02-02 14:50:49.500 [info] [127.0.0.1][84cbce79][ExtensionHostConnection] <10377> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-02-02 14:50:58.687 [info] [127.0.0.1][b21e1682][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-02-02 14:51:00.361 [info] [127.0.0.1][ee8ab9af][ManagementConnection] New connection established.
+2026-02-02 14:51:01.254 [info] [127.0.0.1][05a3763d][ExtensionHostConnection] New connection established.
+2026-02-02 14:51:01.272 [info] [127.0.0.1][05a3763d][ExtensionHostConnection] <11241> Launched Extension Host Process.
+2026-02-02 14:51:03.112 [info] [127.0.0.1][05a3763d][ExtensionHostConnection] <11241> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-02-02 14:51:04.615 [info] [127.0.0.1][84cbce79][ExtensionHostConnection] <10377> Extension Host Process exited with code: 0, signal: null.
+2026-02-02 15:19:37.419 [warning] No ptyHost heartbeat after 6 seconds

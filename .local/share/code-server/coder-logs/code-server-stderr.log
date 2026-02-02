@@ -690,3 +690,32 @@ File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_
 File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
 File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
 File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@xterm/addon-ligatures/lib/addon-ligatures.js
+[14:50:41] Error: Unable to retrieve mac address (unexpected format)
+    at nF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:19758)
+    at cF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20135)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20052
+    at async Promise.all (index 2)
+    at async VB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:194:413)
+    at async YB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:195:1392)
+[14:50:41] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Module._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at cjsLoader (node:internal/modules/esm/translators:309:5)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:202:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async uF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20442)
+    at async Promise.all (index 4)
+    at async VB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:194:413)
+    at async YB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:195:1392)
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@xterm/addon-ligatures/lib/addon-ligatures.js
+[15:19:37] No ptyHost heartbeat after 6 seconds

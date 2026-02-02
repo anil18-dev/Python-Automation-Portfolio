@@ -442,3 +442,24 @@ with open('client_report.txt', 'w') as report_file:
 print('SUCCESS! Final report saved to client_report.txt')" > my_logic.py
 my_logic.py
 python my_logic.py
+code-server --auth none
+cp /sdcard/Download/investors.csv ~/
+ls
+code-server --auth none
+pip install pandas
+pkg install python-pandas
+code-server --auth none
+pkg install python-numpy
+code-server --auth none
+cp client_report.txt /sdcard/Download/
+git add
+git add .
+git commit -m "Finished the report project"
+git push
+exit
+touch automation.py
+exit
+/data/data/com.termux/files/usr/bin/python /data/data/com.termux/files/home/sales_analysis.py
+python sales_analysis.py
+/data/data/com.termux/files/usr/bin/python /data/data/com.termux/files/home/sales_analysis.py
+/data/data/com.termux/files/usr/bin/python /data/data/com.termux/files/home/investor_stats.py
