@@ -1,6 +1,0 @@
-a = int(int(input("First number: "))
-b = int(int(input("Second number: "))
-if a > b :
-    print ("the first one is bigger!")
-else:
-    print ("the second one is bigger!")

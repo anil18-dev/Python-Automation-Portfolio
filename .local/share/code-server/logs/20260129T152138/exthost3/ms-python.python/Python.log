@@ -1,8 +1,0 @@
-2026-01-29 16:15:11.212 [warning] Dir "/data/data/com.termux/files/home/.pixi/envs" is not watchable (directory does not exist)
-2026-01-29 16:15:12.912 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
-2026-01-29 16:15:12.917 [info] Python interpreter path: /data/data/com.termux/files/usr/bin/python
-2026-01-29 16:15:13.021 [info] > pyenv which python
-2026-01-29 16:15:13.021 [info] cwd: .
-2026-01-29 16:15:14.778 [info] Starting Jedi language server for home.
-2026-01-29 16:33:36.312 [info] Send text to terminal: /data/data/com.termux/files/usr/bin/python /data/data/com.termux/files/home/vote.py
-2026-01-29 16:33:38.278 [info] CreateEnv Trigger - Skipping for /data/data/com.termux/files/home/vote.py

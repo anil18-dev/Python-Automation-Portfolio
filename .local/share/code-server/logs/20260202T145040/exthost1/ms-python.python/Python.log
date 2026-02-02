@@ -1,5 +1,0 @@
-2026-02-02 14:50:55.859 [warning] Dir "/data/data/com.termux/files/home/.pixi/envs" is not watchable (directory does not exist)
-2026-02-02 14:50:58.057 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
-2026-02-02 14:50:58.069 [info] Python interpreter path: /data/data/com.termux/files/usr/bin/python
-2026-02-02 14:50:59.017 [info] > pyenv which python
-2026-02-02 14:50:59.018 [info] cwd: .

@@ -1,4 +1,0 @@
-2026-01-27 11:40:17.021 [info] Experiment 'pythonSurveyNotification' is active
-2026-01-27 11:40:17.682 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
-2026-01-27 11:40:17.688 [info] Python interpreter path: /data/data/com.termux/files/usr/bin/python
-2026-01-27 11:40:19.795 [info] Starting Jedi language server for default.

@@ -1,3 +1,0 @@
-2026-01-29 15:24:00.814 [info] Log level: Info
-2026-01-29 15:24:01.501 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
-2026-01-29 15:24:48.238 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for anil18-dev/python-practice: Error: No GitHub authentication session available.
